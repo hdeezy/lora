@@ -697,7 +697,6 @@ def main(args):
         batch_size=args.train_batch_size,
         shuffle=True,
         collate_fn=collate_fn,
-        num_workers=1,
     )
 
     # Scheduler and math around the number of training steps.
